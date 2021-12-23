@@ -1,0 +1,46 @@
+:root {
+    --yellow : #EAC926;
+    --blue : #03264C;
+    --lightBlue : #1259c3;
+    --darkGrey : #666;
+    --lightGrey : #ebebeb;
+    --green : #39b54a;
+    /* Fonts */
+    --font-primary : 'Roboto', sans-serif;
+    /* Font size */
+    --paragraph : 12px;
+    --title : 24px;
+    --prices : 18px;
+    --descriptions : 16px;
+}
+
+body{
+    font-family: var(--font-primary);
+}
+
+header{    
+    background-color: #EAC926;
+    padding-bottom: 10px;
+    padding: 0%;
+}
+
+header .burger-menu{
+    width: 30px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--lightBlue);
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 150px;
+}
